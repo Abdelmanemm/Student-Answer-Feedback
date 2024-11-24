@@ -55,8 +55,8 @@ The `unitest.py` file includes comprehensive unit tests to ensure the reliabilit
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone [Abdelmanemm/Student-Answer-Feedback](https://github.com/Abdelmanemm/Student-Answer-Feedback)
+   cd Student-Answer-Feedback
 
 2. **Install Dependencies**:
    ```bash
