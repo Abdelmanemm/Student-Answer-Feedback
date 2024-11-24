@@ -61,15 +61,18 @@ The `unitest.py` file includes comprehensive unit tests to ensure the reliabilit
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
+   ```
 3. **Download and Place the Model**:
 - Download the[Phi-3.5-mini-instruct](https://huggingface.co/) model files.
 - Place the files in a folder named Phi-3.5-mini-instruct/ in the project root.
 4. **Run the Server**:
-  ```bash
-  python server.py
+     ```bash
+      python server.py
+     ```
 5. **Run the Client**:
    ```bash
    python client.py
+   ```
 Enter a question and student response when prompted to receive feedback.
 
 ---
@@ -107,7 +110,7 @@ Feedback: "Correct, but incomplete. Supervised learning involves training models
 ## Testing
 **Run the unit tests to verify system functionality**:
 ```bash
-   python -m unittest unitest.py
+python -m unittest unitest.py
 ```
 ---
 
@@ -115,5 +118,14 @@ Feedback: "Correct, but incomplete. Supervised learning involves training models
 - Large inputs may cause delays; adjust the max_new_tokens parameter for optimization.
 - Ensure the model path is correctly set in server.py.
 
+---
+
+## Contributions
+Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements or bug fixes.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
   
