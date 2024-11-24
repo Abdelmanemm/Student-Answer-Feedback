@@ -102,8 +102,14 @@ Answer: It is when data is labeled.
 ```
 output Example
 ```vbnet
-Score: 75/100
-Feedback: "Correct, but incomplete. Supervised learning involves training models on labeled datasets to map inputs to outputs. Examples include classification and regression."
+ - **Score**: 60/100
+- **Feedback**: Your answer is on the right track as it correctly identifies that supervised learning involves labeled data. However, to fully understand the concept, you should expand on the following points:
+  1. Explain that supervised learning is a type of machine learning where an algorithm learns from labeled training data, and makes predictions based on that data.
+  2. Mention that the algorithm uses this labeled data to understand the relationship between input features and the corresponding output labels.
+  3. Provide examples of supervised learning tasks, such as classification (e.g., spam detection, image recognition) and regression (e.g., predicting house prices).
+  4. Discuss the importance of a training phase where the model learns from the data, and a testing phase where the model's performance is evaluated.
+
+By including these points, your answer will be more comprehensive and demonstrate a deeper understanding of supervised learning.
 ```
 
 ---
